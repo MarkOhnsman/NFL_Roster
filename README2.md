@@ -151,14 +151,6 @@ function ready(){
     
 ```
 
-Before you are turned loose there are a few things you will want to know about this API. First, it will give you back a ton of data, and not all of it comes how you would expect, nor is all of it usable. Since this is coming from a fantasy football API each team will have "players" that aren't actual people. 
-
-For example the Seahawks have a player with the name "Seahawks" and the position of "D" in a fantasy league this represents the entire defense, giving the player all the points racked up from the defence. It is up to you if you want to keep these "empty" players in your roster. 
-
-Additionally you will find some of the players pictures are different sizes or non-existant make sure that you have contingencies for such things.
-
-Good luck, and Happy Coding.
- 
 ---
 
 #Array.Filter
@@ -200,3 +192,17 @@ the callback it will add the current item to the filtered list, if we return FAL
 then it will exclude the current item from the filtered list.
 
 Note, Array.filter() does not modify the original array; instead it creates a new one.
+
+---
+
+Before you are turned loose there are a few things you will want to know about this API. First, it will give you back a ton of data, and not all of it comes how you would expect, nor is all of it usable. Since this is coming from a fantasy football API each team will have "players" that aren't actual people. 
+
+For example the Seahawks have a player with the name "Seahawks" and the position of "D" in a fantasy league this represents the entire defense, giving the player all the points racked up from the defence. It is up to you if you want to keep these "empty" players in your roster. 
+
+Additionally you will find some of the players pictures are different sizes or non-existant make sure that you have contingencies for such things.
+
+Good luck, and Happy Coding.
+ 
+---
+
+
